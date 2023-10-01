@@ -1,0 +1,63 @@
+#container {
+  position: relative;
+  margin: auto;
+  height: 40vw;
+  width: 40vw;
+  background: url(./clock.jpg.png) no-repeat;
+  background-size: 100%;
+}
+#hour,
+#minute,
+#second {
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+#hour {
+  width: 1.8%;
+  height: 25%;
+  top: 27%;
+  left: 50.85%;
+  opacity: 0.8;
+}
+#minute {
+  width: 1.5%;
+  height: 41%;
+  top: 11%;
+  left: 49.9%;
+  opacity: 0.8;
+}
+#second {
+  width: 1%;
+  height: 34%;
+  top: 18%;
+  left: 50.25%;
+  opacity: 0.8;
+}
+.container {
+  background-color: rgb(234, 149, 175);
+  border-radius: 15px;
+}
+button#increment:hover {
+  padding: 34px;
+  background: rgb(241, 241, 107);
+}
+
+button#decrement:hover {
+  padding: 34px;
+  background: rgb(241, 241, 107);
+}
+button#reset:hover {
+  padding: 34px;
+  background: rgb(241, 241, 107);
+}
+.card-body {
+  margin-bottom: 5px;
+}
+.card-btn button {
+    padding: 35px 35px 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {font-family: 'Baloo Bhai', cursive;
+      background: url("./rodrigo-s-2mz9IKab7DE-unsplash.jpg");
+      background-size: cover;
+    }
+    .left{
+        position: absolute;
+        left: 60px; 
+        top: 20px;
+        text-align:center;
+
+display: inline-block;
+    }
+    .left img{
+        block-size: 1%;
+    }
+    .mid{
+        display: block;
+        width: 36%;
+        margin: 20px auto;
+background-color:rgb(196, 193, 189);
+border: 50px;
+    }
+    .right{
+        position: absolute;
+        right: 34px; 
+        top: 20px;
+
+display: inline-block;
+}
+.navbar{
+        display: inline-block;
+        
+    }
+    .navbar li{
+        display:inline-block;
+        
+       
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 25px;
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+  </style>
+  <body>
+    <header class="header">
+      
+      <div class="left"><h1>AMAAN GYM</h1></div>
+     
+      <div class="mid">
+        <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">bmi calculator</a></li>
+        <li><a href="#">contact us</a></li>
+    </ul>
+        
+      </div>
+      <div class="right">
+        <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Mumbai now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+  </body>
+</html>
